@@ -1,0 +1,27 @@
+########################################
+# Program: water
+# Rundate:Sat Mar 14 17:49:19 2015
+# Align_format: pair
+# Report_file: log_water_protein.txt
+# Aligned_sequences: 2
+# Seq1: 57013850
+# Seq2: 56749856
+# Matrix: BLOSUM62
+# Gap_penalty: -2(Linear Gap Method)
+########################################
+
+57013850:	MV-LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFP-TTKTYFPHF-DLS--H---GSAQVKGHGKKV
+		MV L P  K  V A WGKV     E G EAL R     P T    F  F DLS      G   VK HGKKV
+56749856:	MVHLTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQR-FFESFGDLSTPDAVMGNPKVKAHGKKV
+
+57013850:	VAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVT-LAAHLPAEFTPAVHASLDKFLASVST
+		 AH D        LS LH  KL VDP NF LL    LV  LA H   EFTP V A   K  A V  
+56749856:	LAHLDNLKGTFATLSELHCDKLHVDPENFRLLGN-VLVCVLAHHFGKEFTPPVQAAYQKVVAGVAN
+
+57013850:	YR
+		Y 
+56749856:	YH
+
+
+Identity: 45.3237410072%
+########################################

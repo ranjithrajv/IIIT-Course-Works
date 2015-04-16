@@ -1,0 +1,644 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns="http://www.w3.org/TR/REC-html40"><head>
+<meta name="Microsoft Theme 2.00" content="capsules 011">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 11">
+<meta name="Originator" content="Microsoft Word 11">
+<link rel="File-List" href="http://faculty.iiit.ac.in/%7Eraghu.reddy/Software_Eng/Projects/Unit1/U3-Patterns_files/filelist.xml">
+<title>Unit1 Patterns</title>
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>BestFit</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;
+	mso-font-alt:\BC14\D0D5;
+	mso-font-charset:129;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1342176593 1775729915 48 0 524447 0;}
+@font-face
+	{font-family:"\@Batang";
+	panose-1:2 3 6 0 0 1 1 1 1 1;
+	mso-font-charset:129;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1342176593 1775729915 48 0 524447 0;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+h2
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Batang;
+	color:black;
+	font-weight:bold;}
+h3
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Batang;
+	color:black;
+	font-weight:bold;}
+h4
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Batang;
+	color:black;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:#000099;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#339966;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+address
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Batang;
+	color:black;
+	font-style:italic;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:7104121;
+	mso-list-template-ids:272380030;}
+@list l1
+	{mso-list-id:585304733;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-837676106 -1408058642 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-tab-stop:38.25pt;
+	mso-level-number-position:left;
+	margin-left:38.25pt;
+	text-indent:-20.25pt;
+	font-family:Georgia;}
+@list l1:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:612250359;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1146724200 -1408058642 1166688494 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-tab-stop:38.25pt;
+	mso-level-number-position:left;
+	margin-left:38.25pt;
+	text-indent:-20.25pt;
+	font-family:Georgia;}
+@list l2:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Georgia;}
+@list l2:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:668288299;
+	mso-list-template-ids:2065990060;}
+@list l4
+	{mso-list-id:996960133;
+	mso-list-type:hybrid;
+	mso-list-template-ids:168605494 1166688494 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l4:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Georgia;}
+@list l4:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5
+	{mso-list-id:1127435086;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-2115734266 1166688494 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l5:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Georgia;}
+@list l5:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6
+	{mso-list-id:1135677594;
+	mso-list-type:hybrid;
+	mso-list-template-ids:2129293952 1166688494 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l6:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Georgia;}
+@list l6:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7
+	{mso-list-id:1488322985;
+	mso-list-template-ids:-678651910;}
+@list l8
+	{mso-list-id:1584601811;
+	mso-list-template-ids:-1813072018;}
+@list l9
+	{mso-list-id:1593930971;
+	mso-list-template-ids:-1933559856;}
+@list l10
+	{mso-list-id:1785490900;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1082649520 1166688494 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l10:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Georgia;}
+@list l10:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11
+	{mso-list-id:1940986830;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1237928158 -1408058642 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l11:level1
+	{mso-level-tab-stop:38.25pt;
+	mso-level-number-position:left;
+	margin-left:38.25pt;
+	text-indent:-20.25pt;
+	font-family:Georgia;}
+@list l11:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+<meta http-equiv="Content-Language" content="en-us">
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="3074"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body data-pinterest-extension-installed="ff1.35" style="tab-interval:.5in" alink="#99C999" lang="EN-US" link="#000099" vlink="#339966" background="Unit1%20Patterns_files/captext.html" bgcolor="white">
+
+<div class="Section1">
+
+<div>
+
+<h2 style="text-align:center" align="center"><span style="font-family:Arial">Unit
+3 Patterns<br>
+Interpreter, Mediator, Visitor, Decorator</span></h2>
+
+<h3 style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;margin-left:
+0in"><span style="font-family:Arial">Learning Outcomes</span></h3>
+
+<p style="margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:
+0in"><span style="font-family:Georgia">At the end of the unit, for each pattern
+studied, you should be able to:</span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;
+margin-bottom:.0001pt;text-indent:-.25in"><span style="font-family:Georgia">1.</span><span style="font-size:7.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:Georgia">State the intention.</span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;
+margin-bottom:.0001pt;text-indent:-.25in"><span style="font-family:Georgia">2.</span><span style="font-size:7.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:Georgia">State the motivation.</span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;
+margin-bottom:.0001pt;text-indent:-.25in"><span style="font-family:Georgia">3.</span><span style="font-size:7.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:Georgia">Draw the structure of the pattern.</span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;
+margin-bottom:.0001pt;text-indent:-.25in"><span style="font-family:Georgia">4.</span><span style="font-size:7.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:Georgia">Identify the participants and describe their
+responsibilities.</span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;
+margin-bottom:.0001pt;text-indent:-.25in"><span style="font-family:Georgia">5.</span><span style="font-size:7.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:Georgia">Specify the applicability of the pattern.</span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;
+margin-bottom:.0001pt;text-indent:-.25in"><span style="font-family:Georgia">6.</span><span style="font-size:7.0pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:Georgia">Suggest sample application areas including at least
+one application not discussed in the textbook.</span></p>
+
+<p style="margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:
+0in"><span style="font-family:Georgia">The following subsections specify
+learning outcomes specific to each pattern.</span></p>
+
+<h3><span style="font-family:Helvetica;mso-bidi-font-family:Arial;color:windowtext">Interpreter</span><span style="color:windowtext"><o:p></o:p></span></h3>
+
+<ol start="1" type="1">
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo15;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Explain why interpreters provide modifiability and ease of
+     implementation but not necessarily efficiency.</span> <o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo15;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Identify the challenges in using the interpreter class
+     hierarchy for parsing input, as opposed to implementing operations on
+     already-built abstract syntax trees.</span> <o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo15;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Indicate appropriate uses of the Context participant in the
+     Interpreter pattern.</span> <o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo15;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Compare the applicability of the Interpreter pattern with the
+     Composite pattern.</span> <o:p></o:p></li>
+</ol>
+
+<h3><span style="font-family:Helvetica;mso-bidi-font-family:Arial;color:windowtext">Mediator</span><span style="color:windowtext"><o:p></o:p></span></h3>
+
+<ol start="1" type="1">
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo16;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Distinguish between object behavior and coordinating behavior.</span>
+     <o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo16;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Describe how mediator replaces many-to-many relationships with
+     one-to-many relationships.</span> <o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo16;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Describe the use of an observer pattern within the mediator
+     pattern.</span> <o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo16;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Outline the risk of mediator becoming a bottleneck in the
+     system.</span> <o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo16;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Compare and contrast facade and mediator.</span> </li>
+</ol>
+
+<h3><span style="font-family:Helvetica;mso-bidi-font-family:Arial;color:windowtext">Decorator</span><span style="color:windowtext"><o:p></o:p></span></h3>
+
+<ol start="1" type="1">
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l9 level1 lfo17;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Contrast the added flexibility of the Decorator pattern using
+     object structure to the way in which the intention of Decorator can be
+     achieved using class structure.</span> <o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l9 level1 lfo17;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Explain the pay-as-you go approach of Decorator for adding
+     features to a class.</span> <o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l9 level1 lfo17;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Describe the implementation issues for having an abstract class
+     at the top of the decorator hierarchy.</span> <o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l9 level1 lfo17;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Explain why the decorator and the concrete component must
+     adhere to the same interface. Describe the mechanism for extending the
+     interface of the concrete decorators.</span> <o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l9 level1 lfo17;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Explain the problem with accessing extended functionality
+     provided by all decorators in a chain.</span> <o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l9 level1 lfo17;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Draw sequence diagrams for operations performed through chains
+     of decorators.</span> <o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l9 level1 lfo17;tab-stops:list .5in"><span style="font-family:
+     Helvetica">Distinguish when Strategy vs. Decorator is the appropriate pattern
+     to use.</span> <o:p></o:p></li>
+</ol>
+
+<h3><span style="font-family:Arial;color:windowtext">Visitor</span><span style="color:windowtext"><o:p></o:p></span></h3>
+
+<ol start="1" type="1">
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l8 level1 lfo19;tab-stops:list .5in"><span style="font-family:
+     Arial">Explain how the visitor pattern encapsulates the behavior to
+     perform an operation into single classes. </span><o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l8 level1 lfo19;tab-stops:list .5in"><span style="font-family:
+     Arial">Explain how the visitor pattern provides type-safe operations on
+     each element in the object structure. </span><o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l8 level1 lfo19;tab-stops:list .5in"><span style="font-family:
+     Arial">List the three locations where responsibility for traversal of the
+     object structure can reside. Describe the operation of traversal for it
+     location. </span><o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l8 level1 lfo19;tab-stops:list .5in"><span style="font-family:
+     Arial">Describe the need to maintain state with a visitor. </span><o:p></o:p></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l8 level1 lfo19;tab-stops:list .5in"><span style="font-family:
+     Arial">Explain how the visitor pattern is an implementation of double dispatch.</span>
+     <o:p></o:p></li>
+</ol>
+
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:.25in"><o:p>&nbsp;</o:p></p>
+
+<h4 style="margin-top:12.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:
+0in">&nbsp;</h4>
+
+</div>
+
+</div>
+
+
+
+
+</body></html>

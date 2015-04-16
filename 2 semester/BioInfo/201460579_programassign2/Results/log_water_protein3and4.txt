@@ -1,0 +1,27 @@
+########################################
+# Program: water
+# Rundate:Sat Mar 14 17:48:25 2015
+# Align_format: pair
+# Report_file: log_water_protein.txt
+# Aligned_sequences: 2
+# Seq1: 1707090
+# Seq2: 122087147
+# Matrix: BLOSUM62
+# Gap_penalty: -2(Linear Gap Method)
+########################################
+
+1707090:	GA-GEIARQILAYA-GQ-DFED-N-RIPK---E------E-WPAVKP--STPF--G--QLPLLEVDGKVLAQSHAIAR-Y
+		GA  E   Q  A A      E  N  IPK          E  PA K   S  F  G    P        L Q HA     
+122087147:	GALTE-S-Q--A-ALVKSSWEEFNANIPKHTHRFFILVLEIAPAAKDLFS--FLKGTSEVP--QNNPE-L-QAHA-GKVF
+
+1707090:	WEEA---QVNS--VAD-QFKDYLNEVRPYFMV-KMGFAEGDLDALAKDVFLPGFKKHYGFFANF
+		 E A   QV    V D   K  L  V     V K G A        K   L   K   G  A  
+122087147:	YEAAIQLQVTGVVVTDATLKN-LGSV--H--VSK-GVADAHF-PVVKEAILKTIKEVVG--AKW
+
+1707090:	DL-LVAQHTADLLAAN-AA
+		 L  V          N AA
+122087147:	ELAIVIK-K-E-M--NDAA
+
+
+Identity: 28.2208588957%
+########################################

@@ -1,0 +1,27 @@
+########################################
+# Program: needle
+# Rundate:Sat Mar 14 17:44:09 2015
+# Align_format: pair
+# Report_file: log_needle_protein.txt
+# Aligned_sequences: 2
+# Seq1: 57013850
+# Seq2: 56749856
+# Matrix: BLOSUM62
+# Gap_penalty: -11(Linear Gap Model)
+########################################
+
+57013850:	MV-LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSAQVKGHGK-KVADALTNA
+		MV L P  K  V A WGKV     E G EAL R     P T   F  F DLS   A V G  K K        
+56749856:	MVHLTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDA-VMGNPKVKAHGKKVLG
+
+57013850:	-----VAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSK
+		      AH D        LS LH  KL VDP NF LL   L   LA H   EFTP V A   K    V  V    
+56749856:	AFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQK-V--VAGV--AN
+
+57013850:	-----YR
+		     Y 
+56749856:	ALAHKYH
+
+
+Identity: 38.064516129%
+########################################

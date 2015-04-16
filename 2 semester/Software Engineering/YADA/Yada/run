@@ -1,0 +1,1 @@
+g++ CalorieCalculation.cpp compositeFood.cpp foodStore.cpp loadFood.cpp loadFoodDb.cpp loadFoodRemote.cpp logger.cpp menu.cpp save.cpp SearchFood.cpp simpleFood.cpp UserProfile.cpp UsersFile.cpp UserInterface.cpp Driver.cpp
